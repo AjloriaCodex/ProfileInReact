@@ -1,0 +1,9 @@
+.bg-body-tertiary{
+    background-color: rgb(214, 185, 185);
+}
+.container {
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
