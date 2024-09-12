@@ -1,9 +1,30 @@
 .bg-body-tertiary{
     background-color: rgb(214, 185, 185);
 }
-.container {
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
+.rounded {
+    width:50vh;
+    left: 30%;
+    bottom: 5%;
+    position: relative;
+    border-style: solid;
+    border-color: rgba(248, 248, 248, 0.39);
+    border-width: 10px;
+}
+.row{
+    align-items: left;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+.aboutme{
+    float: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 10;
+    
+}
+.aboutmecard{
+    text-align: center;
 }

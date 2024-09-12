@@ -1,4 +1,5 @@
 import BasicExample from "./navbar";
+import Profile from "./profile";
 
 export const metadata = {
   title: 'Next.js',
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body><BasicExample/>{children}</body>
+      <body><BasicExample/><Profile/>{children}</body>
     </html>
   );
 }
