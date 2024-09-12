@@ -2,29 +2,31 @@
     background-color: rgb(214, 185, 185);
 }
 .rounded {
-    width:50vh;
-    left: 30%;
-    bottom: 5%;
+    width:30vw;
+    left: 40%;
+    bottom: 10%;
     position: relative;
     border-style: solid;
-    border-color: rgba(248, 248, 248, 0.39);
-    border-width: 10px;
+    border-color: rgb(48, 47, 47);
+    border-width: .1vw;
 }
 .row{
     align-items: left;
 }
 
 body{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
 }
 .aboutme{
     float: left;
     display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;
-    height: 10;
-    
+    z-index: 2;  
 }
 .aboutmecard{
-    text-align: center;
+ text-align: left;
+ align-items: flex-start;
+ display:inline-flex;
+
 }
+
