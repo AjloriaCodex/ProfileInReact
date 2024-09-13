@@ -12,7 +12,7 @@ function Profile() {
         <div className='aboutme'>
           <h1>Hello, I am Alvin Loria</h1>
           <h2>A Full-Stack Developer</h2>
-          <p>Holy did i just made a website?!</p>
+          <p>Currently, Taking BS in Sports Science</p>
           <Example />
         </div>
         <div className='picContainer'>
