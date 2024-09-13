@@ -11,8 +11,8 @@ function OffCanvasExample({ name, ...props }) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className="me-2">
-        {name}
+      <Button variant="dark" onClick={handleShow} className="me-2">
+        Connect!
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>

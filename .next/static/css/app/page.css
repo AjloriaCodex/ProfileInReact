@@ -13,14 +13,19 @@
 .bg-body-tertiary{
     background-color: rgb(214, 185, 185);
 }
+.picContainer{
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
 .rounded {
-    width:30vw;
-    left: 40%;
+    margin-top: 2px;
     bottom: 10%;
     position: relative;
     border-style: solid;
     border-color: rgb(48, 47, 47);
-    border-width: .1vw;
+    border-width:0;
+    width: 100%; /* Ensure the image scales based on its container */
 }
 .row{
     align-items: left;
@@ -30,16 +35,46 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .aboutme{
-    float: left;
-    display: inline-flex;
+    display: relative;
     flex-direction: column;
     z-index: 2;  
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: flex-start;
+    width: 50vw;
+    
 }
 .aboutmecard{
  text-align: left;
  align-items: flex-start;
  display:inline-flex;
+ max-width: none;
+ 
+ position:relative;
+ left: 50px;
+
 
 }
 
-
+@media screen and (max-width: 1000px) {
+    .aboutmecard{
+      flex-direction: column-reverse;
+      left: 0px;
+      align-items: center;
+      
+    }
+    .aboutme{   
+        text-align: center;
+        
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
+    
+  }

@@ -11,15 +11,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <Header title="Profile Check?" />
-      <ul>
-        {names.map((name) => (
-          <li key={name}>{name}</li>
-        ))}
-      </ul>
-      <LikeButton/>
-
-      
     </div>
   );
 }
