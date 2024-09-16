@@ -14,7 +14,7 @@ export default function BasicExample() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                     <Nav.Link href="https://visionboard-a.netlify.app/">VisionBoard</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
+                    <Nav.Link href="https://cvsu-mh.onrender.com/">CVSU Well Being Check</Nav.Link>
                     <NavDropdown title="Socials" id="basic-nav-dropdown">
                         <NavDropdown.Item href="    https://cara.app/ajloria/portfolio">Cara</NavDropdown.Item>
                         <NavDropdown.Item href="https://www.instagram.com/alvin.etc/">
