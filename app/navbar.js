@@ -20,7 +20,7 @@ export default function BasicExample() {
                         <NavDropdown.Item href="https://www.instagram.com/ajloria/">
                         Instagram
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="https://ph.pinterest.com/ajloriayey/_created">Pinterest</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="https://github.com/AjloriaCodex">
                         Github
