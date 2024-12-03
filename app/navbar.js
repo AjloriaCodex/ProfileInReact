@@ -17,10 +17,10 @@ export default function BasicExample() {
                     <Nav.Link href="https://cvsu-mh.onrender.com/">CVSU Well Being Check</Nav.Link>
                     <NavDropdown title="Socials" id="basic-nav-dropdown">
                         <NavDropdown.Item href="    https://cara.app/ajloria/portfolio">Cara</NavDropdown.Item>
-                        <NavDropdown.Item href="https://www.instagram.com/alvin.etc/">
+                        <NavDropdown.Item href="https://www.instagram.com/ajloria/">
                         Instagram
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="https://ph.pinterest.com/ajloriayey/_created">Pinterest</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="https://github.com/AjloriaCodex">
                         Github
