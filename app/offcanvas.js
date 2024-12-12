@@ -19,7 +19,7 @@ function OffCanvasExample({ name, ...props }) {
           <Offcanvas.Title>About Me</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <div className='text'> I was born and raised in the Philippines, My main interest is understanding the mind, 
+          <div className='text'> I was born and raised in the Philippines. My main interest is understanding the mind, 
         which branches into honing my creativity and design to express, tell stories, and convey ideas effectively. 
         I am also interested in the ability to read and analyze data to find patterns in certain behaviors, 
         as well as understanding the limits and ways to maintain stability in nutrition and individual well-being.</div>
