@@ -20,9 +20,10 @@ export default function BasicExample() {
                         <NavDropdown.Item href="https://www.instagram.com/alvin.etc/">
                         Instagram
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">linkind/NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="https://github.com/AjloriaCodex">
+                        <NavDropdown.Item href="https://github.com/AjloriaCodex"></NavDropdown.Item>
                         Github
                         </NavDropdown.Item>
                     </NavDropdown>
