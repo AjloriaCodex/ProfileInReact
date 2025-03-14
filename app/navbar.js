@@ -26,7 +26,6 @@ export default function BasicExample() {
                         <NavDropdown.Item href="https://www.linkedin.com/in/alvin-loria/">Linkedin</NavDropdown.Item>
                         <NavDropdown.Item href="https://github.com/AjloriaCodex"></NavDropdown.Item>
                         Github
-                        </NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
