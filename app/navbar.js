@@ -24,8 +24,8 @@ export default function BasicExample() {
                         <NavDropdown.Item href="https://ph.pinterest.com/ajloriayey/_created">Pinterest</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="https://www.linkedin.com/in/alvin-loria/">Linkedin</NavDropdown.Item>
-                        <NavDropdown.Item href="https://github.com/AjloriaCodex"></NavDropdown.Item>
-                        Github
+                        <NavDropdown.Item href="https://github.com/AjloriaCodex">Github</NavDropdown.Item>
+                       
                     </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
